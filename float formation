@@ -1,0 +1,13 @@
+#include <stdio.h>
+int main() 
+{
+    float Num;
+    
+    scanf("%f",&Num);
+    
+        printf("%.6f\n",Num);
+        printf("%.4f\n",Num);
+        printf("%.2f\n",Num);
+        printf("%.0f\n",Num);
+    return 0;
+}
